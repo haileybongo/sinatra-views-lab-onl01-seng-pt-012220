@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
   
-  <% day = Time.new.to_s%>
+  <% date = Time.new.to_s%>
 
     <body>
-        <p> <%= "The date is " + v %> </p>        
+        <p> <%= "The date is " + date.strftime("%A") %> </p>        
     </body>
 </html>
