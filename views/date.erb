@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
   
-  <% now = DateTime.now.iso8601.to_s %>
+  <% now = DateTime.now.day.iso8601.to_s %>
 
     <body>
-        <p> <%= "The date is" + now.day %> </p>        
+        <p> <%= "The date is" + now %> </p>        
     </body>
 </html>
