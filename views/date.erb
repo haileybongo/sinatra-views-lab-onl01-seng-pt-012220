@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   
-  <% now = DateTime.new.to_s %>
+  <% now = DateTime.new.iso8601.to_s %>
 
     <body>
         <p> <%= "The date is" + now %> </p>        
